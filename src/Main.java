@@ -24,8 +24,17 @@ public class Main {
         //System.out.println(myZoo.toString());
         //the output is the same
 
+
         System.out.println(lion);
 
+        Animal panda = new Animal("Panda", "panda", 5, true);
+        System.out.println(zoo.addAnimal(panda));
+        zoo.displayZoo();
+        System.out.println(zoo);
+        System.out.println(zoo.searchAnimal(panda));
+        Zoo zoo2 = new Zoo(animals , "asphyxia" , "lyon" , 23);
+
+        System.out.println(Zoo.comparerZoo(zoo , zoo2 ));
         sc.close();
 
     }
