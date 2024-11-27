@@ -7,6 +7,10 @@ import java.util.*;
 public class SocieteArrayList implements IGestion<Employee> {
     private ArrayList<Employee> employees;
 
+    public SocieteArrayList() {
+        employees = new ArrayList<>();
+    }
+
     public void ajouterEmploye(Employee employee){
         employees.add(employee);
     }
