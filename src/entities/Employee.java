@@ -55,6 +55,6 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employe{id=" + id + ", nom='" + name + "', prenom='" + surname + "', nomDepartement='" + department + "', grade=" + grade + '}';
+        return "Employee {id=" + id + ", nom='" + name + "', prenom='" + surname + "', nomDepartement='" + department + "', grade=" + grade + '}';
     }
 }
